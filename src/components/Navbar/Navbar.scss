@@ -1,0 +1,47 @@
+.navBar{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--gray-color);
+    .navBar-Company{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        a{
+            text-decoration: none;
+        }
+        .company-name{
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+            color: var(--black-color);         
+            
+        }
+    }
+    .navBar-menus{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+
+        li a{
+            text-decoration: none;  
+            color: var(--black-color); 
+            font-size: 1.2rem; 
+            cursor: pointer; 
+            text-transform: uppercase;
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                color: var(--blue-color);
+              
+            }
+
+        }
+    }
+
+}

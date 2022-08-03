@@ -1,0 +1,17 @@
+.app {
+    background-color: var(--primary-color);
+}
+.app_blueColor{
+    background-color: var(--blue-color);
+}
+.main_container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

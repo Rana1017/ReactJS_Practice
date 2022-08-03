@@ -1,0 +1,122 @@
+.KYD{
+    height: auto;
+    width: 100%;
+    background-color: var(--blue-color);
+    color: white;
+
+    .main-KYD{
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .section-Left{
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .main-Heading{
+                display: flex;
+                align-items: baseline;
+                font-size: 1.6rem;
+                
+            }
+            .tea-Description{
+                padding-top: 2rem;
+                .para{
+                    padding-top: 1rem;
+                }
+            }
+            .leaves-Container{
+                border: 1px solid var(--green-color);
+                padding: 1rem 2rem;
+                border-bottom-left-radius: 2rem;
+
+                .leaves-Property{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 1rem 2rem;
+                    .properties{
+                        padding-top: 1rem;
+                        .taste{
+                            padding-top: 0.5rem;
+                            li{
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .ingredients-Section{
+                .ingredient-Heading{
+                    padding-top: 1rem;
+
+         
+                }
+                .ingredient-list{
+                    padding-top: 1rem;
+                    .list-items{
+                        padding-top: 0.5rem;
+                        
+                     
+                    }
+                }
+
+            }
+           
+        }
+
+        .section-Right{
+            padding: 2rem;
+            padding-top: 4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .origin-of-Leaves{
+                padding-bottom: 3rem;
+                .para{
+                    padding-top: 1rem;
+
+                }
+            }
+
+            .map-of-Nepal .nepal{
+                height: auto;
+                width: 100%;
+            }
+            .calories-Container{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .contents{
+                        padding-top: 1rem;
+
+                        li{
+                            padding-top: 1rem;
+                            list-style: none;
+                        }
+                    }
+                }
+            .calories-main{
+                border: 1px solid var(--green-color);
+                padding: 1rem 2rem;
+                border-bottom-left-radius: 1rem;
+             
+                
+            }
+            .no-of-Calories .section-Content{
+                padding-top: 1rem;
+
+            }
+            
+
+            
+          
+
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.main_container{
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 100%;
+
+    .product-Section{
+   
+        display: flex;
+        justify-content: space-between;
+       
+      
+
+        .product-Description{
+         
+            display: flex;
+            flex-direction: column;
+            height: 40rem;
+            width: 60%;
+            padding: 4rem;
+            padding-left: 7rem;
+         
+
+            .sizesofCup{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                text-align: center;
+                gap: 2rem;
+                padding-top: 10rem;
+
+                .sizes {
+                    position: relative;
+                    .cups{
+                        height: 2rem;
+                          
+                    }
+                    .dots{
+                        position: absolute;
+                        height: 25px;
+                        width: 25px;
+                        background-color: var(--secondary-color);
+                        border-radius: 50%;
+                        display: inline-block;
+                        top: 0;
+                        left: 0;
+                        opacity: 0.6;
+                       
+                    }
+
+                    .para{
+                        font-weight: 500;
+                        
+                    }
+
+                }
+
+            }
+
+            .cup-Heading{
+                padding-top: 2rem;
+
+                .heading{
+                    letter-spacing: 0.1rem;
+                }
+
+                .description{
+                    padding-right: 3rem;
+                }
+                
+
+            }
+            .prices-Order{
+                padding-top: 2rem;
+
+                .prices{
+                    font-size: 1.5rem;
+                    padding-bottom: 1.5rem;
+                    font-weight: bold;
+                }
+                .cupPrice{
+                    font-size: 0.9rem;
+                    font-weight: lighter;
+                }
+
+                .order-Now{
+                    padding-top: 3rem;
+                    padding: 1rem 5rem;
+                    border-bottom-left-radius: 1rem;
+                    background-color: var(--blue-color);
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 500;
+                    
+
+                }
+
+            }
+
+
+
+        }
+
+        .containerRight {
+            background-color: var(--green-color);
+            padding-left: 30rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-bottom-right-radius: 4rem;
+           
+            
+            
+            .cupOriginal{
+                height: 20rem;
+                position: absolute;
+                right: 21rem;    
+            }
+            .menus{
+                height: 4rem;
+                padding-right: 5rem;
+            }
+        }
+    }
+}
